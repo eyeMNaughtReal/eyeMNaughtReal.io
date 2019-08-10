@@ -4,8 +4,14 @@ html, body {
 }
 
 nav {
+    position: relative;
     float: right;
     word-spacing: 2em;
+}
+
+li {
+    display: block;
+    float: left;
 }
 
 nav>ul {
