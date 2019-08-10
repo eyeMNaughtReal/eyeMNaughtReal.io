@@ -6,7 +6,6 @@ html, body {
 nav {
     position: relative;
     float: right;
-    word-spacing: 2em;
 }
 
 li {
