@@ -8,9 +8,8 @@ nav {
     word-spacing: 2em;
 }
 
-nav>ul>li {
+nav>ul {
     list-style-type:none;
-
 }
 
 body {
