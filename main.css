@@ -4,7 +4,7 @@ html, body {
 }
 
 header {
-    margin: 0 5px;
+    margin: 5px;
     background-color: #FFF;
 }
 
@@ -13,5 +13,6 @@ article {
 }
 
 footer {
-    margin: 0 5px;
+    margin: 5px;
+    background-color: #FFF;
 }
