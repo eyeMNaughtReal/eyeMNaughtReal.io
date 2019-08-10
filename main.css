@@ -2,3 +2,16 @@ html, body {
     margin: auto 0;
     background-color: #F5F5F5;
 }
+
+header {
+    margin: 0 5px;
+    background-color: #FFF;
+}
+
+article {
+    margin: 5px;
+}
+
+footer {
+    margin: 0 5px;
+}
