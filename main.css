@@ -1,20 +1,31 @@
-html, body {
+html,
+body {
     margin: auto 0;
-    background-color: #F5F5F5;
+    background-color: rgb(80, 80, 80);
 }
 
 nav {
-    position: relative;
-    float: right;
+    justify-content: center;
+    text-align: center;
 }
 
-li {
+.nav_wrapper {
+    padding-left: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.nav_link a {
+    text-decoration: none;
+    color: inherit;
     display: block;
-    float: left;
+    padding: .6em 0;
 }
 
-nav>ul {
-    list-style-type:none;
+.nav_link a:hover {
+    background: #F5F5F5;
 }
 
 body {
@@ -29,10 +40,45 @@ header {
 article {
     margin: 5px;
     text-align: center;
+    color: white;
+}
+
+#about {
+    margin: 130px;
+}
+
+.span--name {
+    color: red;
+}
+
+.span--name:hover {
+    color: green;
+}
+
+.cta--work {
+    border: 1px solid white;
+    background: inherit;
+    cursor: pointer;
+    width: 10em;
+    height: 3em;
+    position: static;
+}
+
+.cta--work a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding: 15px 0;
+}
+
+.cta--work a:hover {
+    color: rgb(80, 80, 80);
+    background: white;
 }
 
 footer {
     margin: 30px;
     background-color: #FFF;
     text-align: center;
+    padding: 20px 0;
 }
