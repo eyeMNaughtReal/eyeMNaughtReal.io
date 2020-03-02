@@ -1,7 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+:root {
+    --primairy-color: rgb(80, 80, 80);
+    --secondary-color: #FFF;
+    font-size: 16px;
+}
+
 html,
 body {
     margin: auto 0;
-    background-color: rgb(80, 80, 80);
+    background-color: var(--primairy-color);
 }
 
 nav {
@@ -10,41 +22,35 @@ nav {
 }
 
 .nav_wrapper {
-    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    list-style-type: none;
 }
 
-ul {
-    list-style-type: none;
+.nav_wrapper li {
+    padding: .8rem .9rem;
 }
 
 .nav_link a {
     text-decoration: none;
     color: inherit;
     display: block;
-    padding: .6em 0;
+    padding: 1.1rem 2.1rem;
 }
 
 .nav_link a:hover {
     background: #F5F5F5;
 }
 
-body {
-    display: grid;
-}
-
-header {
-    margin: 30px;
-    background-color: #FFF;
-}
-
 article {
     margin: 5px;
     text-align: center;
-    color: white;
+    color: var(--secondary-color);
 }
 
 #about {
-    margin: 130px;
+    margin: 1rem 0;
 }
 
 .span--name {
@@ -56,29 +62,54 @@ article {
 }
 
 .cta--work {
-    border: 1px solid white;
+    border: 1px solid var(--secondary-color);
     background: inherit;
     cursor: pointer;
-    width: 10em;
-    height: 3em;
+    width: 10rem;
+    height: 3rem;
     position: static;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    margin-top: 1rem;
+    border-radius: 5px;
+    list-style-type: none;
 }
 
 .cta--work a {
     text-decoration: none;
     display: block;
-    color: white;
-    padding: 15px 0;
+    color: var(--secondary-color);
+    padding: 1rem;
+    border-radius: inherit;
 }
 
 .cta--work a:hover {
-    color: rgb(80, 80, 80);
-    background: white;
+    color: var(--primairy-color);
+    background: var(--secondary-color);
+}
+
+.port_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.port_card {
+    border: 1px solid var(--secondary-color);
+    width: 30rem;
+    height: 20rem;
+    margin: .3rem;
+
+}
+
+footer,
+header {
+    background-color: var(--secondary-color);
 }
 
 footer {
-    margin: 30px;
-    background-color: #FFF;
     text-align: center;
-    padding: 20px 0;
+    padding: 1.25rem 0;
 }
