@@ -5,8 +5,8 @@
 }
 
 :root {
-    --primairy-color: rgb(80, 80, 80);
-    --secondary-color: #FFF;
+    --secondary-color: rgb(54, 54, 54);
+    --primairy-color: rgb(214, 214, 214);
     font-size: 16px;
 }
 
@@ -26,10 +26,11 @@ nav {
     flex-wrap: wrap;
     width: 100%;
     list-style-type: none;
+    justify-content: right;
 }
 
 .nav_wrapper li {
-    padding: .8rem .9rem;
+    padding: .2rem .9rem;
 }
 
 .nav_link a {
@@ -40,7 +41,8 @@ nav {
 }
 
 .nav_link a:hover {
-    background: #F5F5F5;
+    background-color: var(--primairy-color);
+    color: var(--secondary-color);
 }
 
 article {
@@ -49,16 +51,25 @@ article {
     color: var(--secondary-color);
 }
 
+section {
+    height: 100vh;
+}
+
 #about {
+    display: flex;
+    align-items: center;
+    justify-content: left;
     margin: 1rem 0;
+    padding: 0 40px;
+}
+
+.about_wrapper {
+    line-height: 40px;
+    text-align: left;
 }
 
 .span--name {
-    color: red;
-}
-
-.span--name:hover {
-    color: green;
+    font-weight: 700;
 }
 
 .cta--work {
@@ -106,6 +117,7 @@ article {
 footer,
 header {
     background-color: var(--secondary-color);
+    color: var(--primairy-color);
 }
 
 footer {
