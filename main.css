@@ -75,6 +75,10 @@ section {
     font-weight: 700;
 }
 
+.span--title {
+    text-transform: uppercase;
+}
+
 .cta--work {
     background: inherit;
     cursor: pointer;
