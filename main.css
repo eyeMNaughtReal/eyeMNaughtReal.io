@@ -30,7 +30,8 @@ nav {
 }
 
 .nav_wrapper li {
-    padding: .2rem .9rem;
+    padding: .2rem .7rem;
+    border-radius: 4px;
 }
 
 .nav_link a {
