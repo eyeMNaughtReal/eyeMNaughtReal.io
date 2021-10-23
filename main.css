@@ -37,12 +37,13 @@ nav {
     text-decoration: none;
     color: inherit;
     display: block;
-    padding: 1.1rem 2.1rem;
+    padding: 1.1rem 1.4rem;
 }
 
 .nav_link a:hover {
     background-color: var(--primairy-color);
     color: var(--secondary-color);
+    border-radius: 4px;
 }
 
 article {
