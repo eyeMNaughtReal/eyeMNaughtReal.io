@@ -25,7 +25,6 @@ nav {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    height: 3.4em;
     list-style-type: none;
     justify-content: right;
 }
@@ -73,10 +72,6 @@ section {
 
 .span--name {
     font-weight: 700;
-}
-
-.span--title {
-    text-transform: uppercase;
 }
 
 .cta--work {
