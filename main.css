@@ -38,7 +38,8 @@ nav {
     text-decoration: none;
     color: inherit;
     display: block;
-    padding: .7rem 1.4rem;
+    padding: .6rem 1.5rem;
+    border-radius: 4px;
 }
 
 .nav_link a:hover {
